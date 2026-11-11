@@ -1,1 +1,0 @@
-Inert marker for netscan.exe represented in the logs. No executable is included.
