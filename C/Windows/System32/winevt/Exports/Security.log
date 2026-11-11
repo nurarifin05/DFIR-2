@@ -1,0 +1,1641 @@
+
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 08:40:01 +07:00
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92101
+Description:
+A new process has been created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    NewProcessId: 0xbb8
+    NewProcessName: C:\Windows\System32\svchost.exe
+    TokenElevationType: TokenElevationTypeDefault (1)
+    ProcessId: 0x2d0
+    ParentProcessName: C:\Windows\System32\services.exe
+    CommandLine: svchost.exe -k netsvcs
+    MandatoryLabel: S-1-16-16384
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 08:41:00 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92102
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.70
+    SourcePort: 51000
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 08:42:51 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92103
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.71
+    SourcePort: 51001
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 08:43:14 +07:00
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92104
+Description:
+A new process has been created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    NewProcessId: 0xc1c
+    NewProcessName: C:\Windows\System32\wbem\WmiPrvSE.exe
+    TokenElevationType: TokenElevationTypeDefault (1)
+    ProcessId: 0x2d0
+    ParentProcessName: C:\Windows\System32\services.exe
+    CommandLine: C:\Windows\System32\wbem\WmiPrvSE.exe
+    MandatoryLabel: S-1-16-16384
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 08:44:42 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92105
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.72
+    SourcePort: 51002
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 08:45:00 +07:00
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92106
+Description:
+A new process has been created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    NewProcessId: 0xc80
+    NewProcessName: C:\Windows\System32\wuauclt.exe
+    TokenElevationType: TokenElevationTypeDefault (1)
+    ProcessId: 0x2d0
+    ParentProcessName: C:\Windows\System32\services.exe
+    CommandLine: wuauclt.exe /RunHandlerComServer
+    MandatoryLabel: S-1-16-16384
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 08:46:33 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92107
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.73
+    SourcePort: 51003
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 08:48:24 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92108
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.74
+    SourcePort: 51004
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 08:50:00 +07:00
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92109
+Description:
+A new process has been created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    NewProcessId: 0xce4
+    NewProcessName: C:\Windows\System32\taskhostw.exe
+    TokenElevationType: TokenElevationTypeDefault (1)
+    ProcessId: 0x2d0
+    ParentProcessName: C:\Windows\System32\services.exe
+    CommandLine: taskhostw.exe
+    MandatoryLabel: S-1-16-16384
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 08:50:15 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92110
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.75
+    SourcePort: 51005
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 08:52:06 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92111
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.76
+    SourcePort: 51006
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 08:53:57 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92112
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.77
+    SourcePort: 51007
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 08:55:48 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92113
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.78
+    SourcePort: 51008
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 08:57:39 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92114
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.79
+    SourcePort: 51009
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 08:59:30 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92115
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.80
+    SourcePort: 51010
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:00:48 +07:00
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92116
+Description:
+A new process has been created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    NewProcessId: 0x1770
+    NewProcessName: C:\Windows\System32\cmd.exe
+    TokenElevationType: TokenElevationTypeDefault (1)
+    ProcessId: 0x1240
+    ParentProcessName: C:\Apache24\bin\httpd.exe
+    CommandLine: cmd.exe /c whoami
+    MandatoryLabel: S-1-16-16384
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:00:48 +07:00
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92117
+Description:
+A new process has been created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    NewProcessId: 0x1774
+    NewProcessName: C:\Windows\System32\whoami.exe
+    TokenElevationType: TokenElevationTypeDefault (1)
+    ProcessId: 0x1770
+    ParentProcessName: C:\Windows\System32\cmd.exe
+    CommandLine: whoami
+    MandatoryLabel: S-1-16-16384
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:01:02 +07:00
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92118
+Description:
+A new process has been created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    NewProcessId: 0x177a
+    NewProcessName: C:\Windows\System32\cmd.exe
+    TokenElevationType: TokenElevationTypeDefault (1)
+    ProcessId: 0x1240
+    ParentProcessName: C:\Apache24\bin\httpd.exe
+    CommandLine: cmd.exe /c ver
+    MandatoryLabel: S-1-16-16384
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:01:10 +07:00
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92119
+Description:
+A new process has been created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    NewProcessId: 0x1784
+    NewProcessName: C:\Windows\System32\cmd.exe
+    TokenElevationType: TokenElevationTypeDefault (1)
+    ProcessId: 0x1240
+    ParentProcessName: C:\Apache24\bin\httpd.exe
+    CommandLine: cmd.exe /c hostname
+    MandatoryLabel: S-1-16-16384
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:01:10 +07:00
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92120
+Description:
+A new process has been created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    NewProcessId: 0x1788
+    NewProcessName: C:\Windows\System32\hostname.exe
+    TokenElevationType: TokenElevationTypeDefault (1)
+    ProcessId: 0x1784
+    ParentProcessName: C:\Windows\System32\cmd.exe
+    CommandLine: hostname
+    MandatoryLabel: S-1-16-16384
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:01:21 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92121
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.81
+    SourcePort: 51011
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:01:26 +07:00
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92122
+Description:
+A new process has been created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    NewProcessId: 0x178e
+    NewProcessName: C:\Windows\System32\cmd.exe
+    TokenElevationType: TokenElevationTypeDefault (1)
+    ProcessId: 0x1240
+    ParentProcessName: C:\Apache24\bin\httpd.exe
+    CommandLine: cmd.exe /c dir C:\Apache24\htdocs\uploads
+    MandatoryLabel: S-1-16-16384
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:02:03 +07:00
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92123
+Description:
+A new process has been created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    NewProcessId: 0x17d4
+    NewProcessName: C:\Windows\System32\cmd.exe
+    TokenElevationType: TokenElevationTypeDefault (1)
+    ProcessId: 0x1240
+    ParentProcessName: C:\Apache24\bin\httpd.exe
+    CommandLine: cmd.exe /c net user SUPPORT_AAU LabDummyOnly!2026 /add
+    MandatoryLabel: S-1-16-16384
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:02:03 +07:00
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92124
+Description:
+A new process has been created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    NewProcessId: 0x17d8
+    NewProcessName: C:\Windows\System32\net.exe
+    TokenElevationType: TokenElevationTypeDefault (1)
+    ProcessId: 0x17d4
+    ParentProcessName: C:\Windows\System32\cmd.exe
+    CommandLine: net user SUPPORT_AAU LabDummyOnly!2026 /add
+    MandatoryLabel: S-1-16-16384
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:02:03 +07:00
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92125
+Description:
+A new process has been created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    NewProcessId: 0x17dc
+    NewProcessName: C:\Windows\System32\net1.exe
+    TokenElevationType: TokenElevationTypeDefault (1)
+    ProcessId: 0x17d8
+    ParentProcessName: C:\Windows\System32\net.exe
+    CommandLine: net1 user SUPPORT_AAU LabDummyOnly!2026 /add
+    MandatoryLabel: S-1-16-16384
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:02:03 +07:00
+Event ID:      4720
+Task Category: User Account Management
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92126
+Description:
+A user account was created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    TargetUserName: SUPPORT_AAU
+    TargetDomainName: ASABRI-WEB01
+    TargetSid: S-1-5-21-2424242424-1616161616-909090909-1007
+    SamAccountName: SUPPORT_AAU
+    DisplayName: -
+    UserPrincipalName: -
+    HomeDirectory: -
+    HomePath: -
+    ScriptPath: -
+    ProfilePath: -
+    UserWorkstations: -
+    PasswordLastSet: 2/16/2026 9:02:03 AM
+    AccountExpires: Never
+    PrimaryGroupId: 513
+    AllowedToDelegateTo: -
+    OldUacValue: 0x0
+    NewUacValue: 0x11
+    UserAccountControl: Account enabled; Normal account
+    UserParameters: -
+    SidHistory: -
+    LogonHours: All
+    PrivilegeList: -
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:02:12 +07:00
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92127
+Description:
+A new process has been created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    NewProcessId: 0x17e8
+    NewProcessName: C:\Windows\System32\cmd.exe
+    TokenElevationType: TokenElevationTypeDefault (1)
+    ProcessId: 0x1240
+    ParentProcessName: C:\Apache24\bin\httpd.exe
+    CommandLine: cmd.exe /c net user SUPPORT_AAU
+    MandatoryLabel: S-1-16-16384
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:02:12 +07:00
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92128
+Description:
+A new process has been created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    NewProcessId: 0x17ec
+    NewProcessName: C:\Windows\System32\net.exe
+    TokenElevationType: TokenElevationTypeDefault (1)
+    ProcessId: 0x17e8
+    ParentProcessName: C:\Windows\System32\cmd.exe
+    CommandLine: net user SUPPORT_AAU
+    MandatoryLabel: S-1-16-16384
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:12 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92129
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.82
+    SourcePort: 51012
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:20 +07:00
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92130
+Description:
+A new process has been created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    NewProcessId: 0x1838
+    NewProcessName: C:\Windows\System32\cmd.exe
+    TokenElevationType: TokenElevationTypeDefault (1)
+    ProcessId: 0x1240
+    ParentProcessName: C:\Apache24\bin\httpd.exe
+    CommandLine: cmd.exe /c "C:\Apache24\htdocs\uploads\netscan.exe" 10.10.4.3 10.10.4.12 10.10.4.34
+    MandatoryLabel: S-1-16-16384
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:20 +07:00
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92131
+Description:
+A new process has been created.
+
+    SubjectUserSid: S-1-5-18
+    SubjectUserName: ASABRI-WEB01$
+    SubjectDomainName: WORKGROUP
+    SubjectLogonId: 0x3e7
+    NewProcessId: 0x183c
+    NewProcessName: C:\Apache24\htdocs\uploads\netscan.exe
+    TokenElevationType: TokenElevationTypeDefault (1)
+    ProcessId: 0x1838
+    ParentProcessName: C:\Windows\System32\cmd.exe
+    CommandLine: "C:\Apache24\htdocs\uploads\netscan.exe" 10.10.4.3 10.10.4.12 10.10.4.34
+    MandatoryLabel: S-1-16-16384
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:21 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92132
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53000
+    DestAddress: 10.10.4.3
+    DestPort: 21
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:22 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92133
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53001
+    DestAddress: 10.10.4.3
+    DestPort: 22
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:23 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92134
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53002
+    DestAddress: 10.10.4.3
+    DestPort: 80
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:24 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92135
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53003
+    DestAddress: 10.10.4.3
+    DestPort: 135
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:25 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92136
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53004
+    DestAddress: 10.10.4.3
+    DestPort: 139
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:26 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92137
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53005
+    DestAddress: 10.10.4.3
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:27 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92138
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53006
+    DestAddress: 10.10.4.3
+    DestPort: 445
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:28 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92139
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53007
+    DestAddress: 10.10.4.3
+    DestPort: 3389
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:29 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92140
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53008
+    DestAddress: 10.10.4.3
+    DestPort: 5985
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:30 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92141
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53020
+    DestAddress: 10.10.4.12
+    DestPort: 21
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:31 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92142
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53021
+    DestAddress: 10.10.4.12
+    DestPort: 22
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:32 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92143
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53022
+    DestAddress: 10.10.4.12
+    DestPort: 80
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:33 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92144
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53023
+    DestAddress: 10.10.4.12
+    DestPort: 135
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:34 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92145
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53024
+    DestAddress: 10.10.4.12
+    DestPort: 139
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:35 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92146
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53025
+    DestAddress: 10.10.4.12
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:36 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92147
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53026
+    DestAddress: 10.10.4.12
+    DestPort: 445
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:37 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92148
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53027
+    DestAddress: 10.10.4.12
+    DestPort: 3389
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:38 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92149
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53028
+    DestAddress: 10.10.4.12
+    DestPort: 5985
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:39 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92150
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53040
+    DestAddress: 10.10.4.34
+    DestPort: 21
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:40 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92151
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53041
+    DestAddress: 10.10.4.34
+    DestPort: 22
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:41 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92152
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53042
+    DestAddress: 10.10.4.34
+    DestPort: 80
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:42 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92153
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53043
+    DestAddress: 10.10.4.34
+    DestPort: 135
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:43 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92154
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53044
+    DestAddress: 10.10.4.34
+    DestPort: 139
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:44 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92155
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53045
+    DestAddress: 10.10.4.34
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:45 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92156
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53046
+    DestAddress: 10.10.4.34
+    DestPort: 445
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:46 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92157
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53047
+    DestAddress: 10.10.4.34
+    DestPort: 3389
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:03:47 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92158
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 6204
+    Application: \device\harddiskvolume2\apache24\htdocs\uploads\netscan.exe
+    Direction: Outbound
+    SourceAddress: 10.10.4.10
+    SourcePort: 53048
+    DestAddress: 10.10.4.34
+    DestPort: 5985
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Connect
+    LayerRTID: 48
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:05:03 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92159
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.83
+    SourcePort: 51013
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:06:54 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92160
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.84
+    SourcePort: 51014
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:08:45 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92161
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.85
+    SourcePort: 51015
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:10:36 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92162
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.86
+    SourcePort: 51016
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:12:27 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92163
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.87
+    SourcePort: 51017
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:14:18 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92164
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.88
+    SourcePort: 51018
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          02/16/2026 09:16:09 +07:00
+Event ID:      5156
+Task Category: Filtering Platform Connection
+Level:         Information
+Keywords:      Audit Success
+User:          SYSTEM
+Computer:      ASABRI-WEB01
+Event Record ID: 92165
+Description:
+The Windows Filtering Platform has permitted a connection.
+
+    ProcessID: 4672
+    Application: \device\harddiskvolume2\apache24\bin\httpd.exe
+    Direction: Inbound
+    SourceAddress: 10.10.4.89
+    SourcePort: 51019
+    DestAddress: 10.10.4.10
+    DestPort: 443
+    Protocol: 6
+    FilterRTID: 67543
+    LayerName: Receive/Accept
+    LayerRTID: 44
